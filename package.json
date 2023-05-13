@@ -1,7 +1,6 @@
 {
   "name": "declaration_incidents",
   "version": "0.1.0",
-  "homepage": "https://yelmouss.github.io/goalerte",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -25,8 +24,7 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
+
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
