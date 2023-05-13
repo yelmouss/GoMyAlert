@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/goalerte/static/css/main.6b89cc37.css",
+    "main.js": "/goalerte/static/js/main.d11774dc.js",
+    "static/js/703.601800a6.chunk.js": "/goalerte/static/js/703.601800a6.chunk.js",
+    "static/js/541.298c63e7.chunk.js": "/goalerte/static/js/541.298c63e7.chunk.js",
+    "static/js/787.ca42ca7d.chunk.js": "/goalerte/static/js/787.ca42ca7d.chunk.js",
+    "static/media/v.webp": "/goalerte/static/media/v.364714c6fea059bb1540.webp",
+    "static/media/logo.png": "/goalerte/static/media/logo.1ab56ca7fcb5a72381da.png",
+    "index.html": "/goalerte/index.html",
+    "main.6b89cc37.css.map": "/goalerte/static/css/main.6b89cc37.css.map",
+    "main.d11774dc.js.map": "/goalerte/static/js/main.d11774dc.js.map",
+    "703.601800a6.chunk.js.map": "/goalerte/static/js/703.601800a6.chunk.js.map",
+    "541.298c63e7.chunk.js.map": "/goalerte/static/js/541.298c63e7.chunk.js.map",
+    "787.ca42ca7d.chunk.js.map": "/goalerte/static/js/787.ca42ca7d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b89cc37.css",
+    "static/js/main.d11774dc.js"
+  ]
+}
