@@ -42,7 +42,7 @@ const MyForm = () => {
 
 
     return (
-        <Container className="col-10 mt-5 pb-5">
+        <Container className="col-lg-10 mt-5 pb-5">
 
             <Link to={'/incidents'} className='btn btn-dark'>Go to incident page</Link>
 
@@ -51,7 +51,7 @@ const MyForm = () => {
                 <Container>
                     <h1>Formulaire de déclaration d'incident</h1>
                     <hr />
-                    <Row xs={2} md={4} lg={5}>
+                    <Row xs={1} md={4} lg={5}>
                         <Col>
                             {" "}
                             <Form.Group controlId="dob">
@@ -119,12 +119,12 @@ const MyForm = () => {
                     <Row xs={1} md={1} lg={2}>
                         <Col>
                             {" "}
-                            <InputGroup className="mb-3">
-                                <InputGroup.Text id="inputGroup-sizing-default">
+                            
+                                <InputGroup.Text>
                                     Catégorie client
                                 </InputGroup.Text>
                                 <Form.Control as="textarea" aria-label="With textarea" name='Categorie_client' required />
-                            </InputGroup>
+                            
                         </Col>
                         <Col>
                             {" "}
@@ -141,7 +141,7 @@ const MyForm = () => {
                             </InputGroup>
                         </Col>
                         <Col>
-                            <InputGroup>
+                          
                                 <InputGroup.Text>Switch, Port </InputGroup.Text>
                                 <Form.Control
                                     as="textarea"
@@ -150,11 +150,11 @@ const MyForm = () => {
                                     name='switchPort'
                                     required
                                 />
-                            </InputGroup>
+                            
                         </Col>
                     </Row>
 
-                    <Row xs={1} md={2} lg={4} className="p-5">
+                    <Row xs={1} md={2} lg={4} className="">
                         <Col>
                             {" "}
                             <Form.Group controlId="dob">
@@ -266,7 +266,7 @@ const MyForm = () => {
                     </Row>
                 </Container>
 
-                <Row lg={3}>
+                <Row xs={1} lg={3}>
                     <Col>
                         {" "}
                         <Form.Group controlId="dob">
