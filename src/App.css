@@ -1,10 +1,10 @@
 .App {
   background-image: url("./img/v.webp");
- 
-  background-size: cover;
 
-  animation:myanim 0.5s;
-  -webkit-animation:myanim 0.5s;
+  background-size: cover;
+  background-attachment: fixed;
+  animation: myanim 0.5s;
+  -webkit-animation: myanim 0.5s;
 }
 
 .App-logo {
@@ -44,26 +44,25 @@
 
 @keyframes myanim {
   0% {
-      background-position:0 0;
+    background-position: 0 0;
   }
   50% {
-      background-position:20px 0;
+    background-position: 20px 0;
   }
   100% {
-      background-position:0 0;
+    background-position: 0 0;
   }
 }
 
 @-webkit-keyframes myanim
-/* Safari and Chrome */
-{
+/* Safari and Chrome */ {
   0% {
-      background-position:0 0;
+    background-position: 0 0;
   }
   50% {
-      background-position:20px 0;
+    background-position: 20px 0;
   }
   100% {
-      background-position:0 0;
+    background-position: 0 0;
   }
 }
