@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  background-image: url("./img/v.webp");
+ 
+  background-size: cover;
+
+  animation:myanim 0.5s;
+  -webkit-animation:myanim 0.5s;
 }
 
 .App-logo {
@@ -34,5 +39,31 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes myanim {
+  0% {
+      background-position:0 0;
+  }
+  50% {
+      background-position:20px 0;
+  }
+  100% {
+      background-position:0 0;
+  }
+}
+
+@-webkit-keyframes myanim
+/* Safari and Chrome */
+{
+  0% {
+      background-position:0 0;
+  }
+  50% {
+      background-position:20px 0;
+  }
+  100% {
+      background-position:0 0;
   }
 }
